@@ -72,28 +72,27 @@ Code
 
 ## 📦 Installation & Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/raushanwith-code/AirBnb-Clone.git
-   cd AirBnb-Clone
-Backend setup
-
+### 1. Clone the repository
+```bash
+git clone https://github.com/raushanwith-code/AirBnb-Clone.git
+cd AirBnb-Clone
+2. Backend setup
 bash
 cd backend
 npm install
 npm start
-Frontend setup
-
+3. Frontend setup
 bash
 cd frontend
 npm install
 npm start
-Environment variables
+4. Environment variables
 Create a .env file in backend:
 
 Code
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
+PORT=5000
 🔮 Future Scope
 📱 Responsive Mobile UI – Build mobile‑friendly layouts
 
@@ -116,14 +115,13 @@ Strengthen React + Node.js integration skills
 
 🤝 Contribution
 This is a personal learning project, but contributions are welcome!
+
 Fork the repo
 
 Create a new branch
 
 Submit a pull request
 
-
 ⚡ Keep coding, keep building, keep growing! ⚡
-
 
 👉 GitHub Profile: raushanwith-code
